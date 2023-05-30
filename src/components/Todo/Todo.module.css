@@ -1,0 +1,19 @@
+.TodoContainer{
+    width: 100%;
+}
+
+.tasks{
+    width: 100%;
+    height: auto;
+}
+
+.message{
+    margin: 1.5em auto;
+    width: 80%;
+    text-align: center;
+    color: #eee;
+    padding: 1em;
+    font-size: 1em;
+    background: rgba(228, 0, 49, 0.527);
+    border-radius: 0.8em;
+}

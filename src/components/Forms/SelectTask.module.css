@@ -1,0 +1,46 @@
+
+.componentInput{
+    width: 100%;
+    margin: 0em auto;
+    color: #eee;
+    font-weight: 500;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+
+.componentLabel{
+    display: flex;
+    gap: 1.3em;
+    padding: 0.2em;
+    font-size: 1.2em;
+    flex-direction: column;
+}
+
+
+.componentLabel input , select{
+    padding: 1em;
+    border-radius: 1em;
+    border-radius: 0.5em;
+    border: none;
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.15ems;
+    box-shadow: 0.1em 0.1em 0.2em #202020;
+}
+
+
+.addTask{
+    margin: 2em auto;
+    width: 60%;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: none;
+    background: rgb(98, 2, 98);
+    font-size: 1.2em;
+    color: #eee;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0.1em 0.1em 0.1em rgb(80, 2, 80);
+}

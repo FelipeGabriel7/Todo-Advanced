@@ -1,0 +1,99 @@
+.Title{
+    display: flex;
+    padding: 1em;
+    font-size: 2.5em;
+    justify-content: center;
+    font-family: cursive;
+    color: #fff;
+    text-shadow: 0.1em 0.1em 0.4em #09e;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.Title span{
+    color: #09e;
+}
+
+
+.Title:hover{
+    transition: 0.3s all;
+    color: #131313;
+    opacity: 80%;
+    filter: drop-shadow(10px 10px 0.1em #09e);
+    text-shadow: 0.1em 0.1em 0.4em rgb(5, 128, 194);
+}
+
+
+
+
+.componentInput{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-around;
+}
+
+.componentLabelInput{
+    width: 50%;
+    display: flex;
+    font-size: 1.2em;
+    justify-content: flex-start;
+    gap: 0.2em;
+    color: #eee;
+    font-weight: 500;
+    flex-direction: column;
+}
+
+.componentLabelInput input {
+   padding: 1em;
+   margin-top: 0.5em;
+   border-radius: 0.8em;
+   border: none;
+   margin-bottom: 0.5em;
+   color: #444;
+   box-shadow: 0.2em 0.2em 0.4em #292929;
+}
+
+.componentLabelSelect {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    color: #eee;
+    font-weight: 500;
+    font-size: 1.2em;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.componentLabelSelect select{
+    display: flex;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 1em;
+    border-radius: 0.8em;
+    flex-direction: column;
+    box-shadow: 0.2em 0.2em 0.4em #292929;
+}
+
+.Order{
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    align-items: center;
+    color: #eee;
+    gap: 1em;
+    font-size: 0.8em;
+}
+
+.IconOrder{
+    font-size: 2em;
+    cursor: pointer;
+    color: rgb(0, 16, 25);
+}
+
+.IconOrder:hover{
+    transition: 0.3s all ease-in;
+    color: #eee;
+}

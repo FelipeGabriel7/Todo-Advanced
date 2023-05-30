@@ -1,0 +1,55 @@
+.containerTask{
+    margin: 1em auto;
+    width: 80%;
+    background: #eeeeeeb5;
+    display: flex;
+    gap: 1em;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    box-shadow: 0.2em 0.2em 0.4em #000;
+    flex-direction: column;
+}
+
+
+.messageTask{
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #eaeaea;
+    letter-spacing: 0.1em;
+    align-self: flex-start;
+    text-align: start;
+}
+
+.contentTask{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nameTask{
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+
+.buttonsTask{
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+    font-size: 1.5em;
+    color: rgb(2, 4, 58);
+    cursor: pointer;
+}
+
+.buttonsTask:hover{
+    color: rgb(211, 41, 8);
+}
+
+
+
+.category{
+    font-size: 0.8em;
+    content: '(';
+    color: #7b7b7b;
+}
